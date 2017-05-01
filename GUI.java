@@ -100,7 +100,7 @@ public class GUI extends Panel implements ActionListener
 		statusText.setText("");
 		statusText.append(" 1) Select a source and target destination above\n");
 		statusText.append(" 2) Click \"Compare\" to check for missing files\n");
-		statusText.append(" 2) Click \"Merge\" to copy missing files from the source to the target\n");		
+		statusText.append(" 3) Click \"Merge\" to copy missing files from the source to the target\n");		
 	}
 	
 	public void actionPerformed (ActionEvent e)
